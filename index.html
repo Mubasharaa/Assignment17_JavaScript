@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assingment 17 Mubashara</title>
+</head>
+<body>
+    <script>
+                                    
+
+// 1.	 Write a program using a for loop and print the numbers from 200 till 0 with the decrement of  3.
+function PrintReverseOrder(N)
+    {
+ 
+        for(i =200; i>0; i-=3)
+           console.log(i + " ");
+ 
+    }
+    let N = 200;
+
+  PrintReverseOrder(N);
+     
+     
+//   2.    Write  a  program to  display your name 10 times using a while loop.
+let count = 0;
+while (count < 10) {
+  count++; 
+  console.log('Mubashara');
+};
+// 3  Write a program to  print a sum of even numbers in between 1-10  using a while loop.
+
+
+// var Sum =0;
+var Num =0;
+while (Num <= 9) {
+     
+      Num = Num + 2; 
+      console.log("Print even numbers from 1 to 10",Num);
+};
+//4  Write a  program to display a number between 1 to 5 using the do while loop.
+let s = 1;
+const n = 5;
+
+// do...while loop from 1 to 5
+do {
+    console.log("Print 1 to 5 numbers using do while loop",s);
+    s++;
+} while(s <= n);
+
+5 // /.    Write  a function to print the sum of two numbers.
+// function add(a, b) {
+//             console.log("The sum of two numbers is " + c)
+//         }
+//         let a = prompt("Enter first number");
+//         let b = prompt("Enter second number");
+//         let c = a+b;
+
+const num1 = 9;
+const num2 = 10;
+
+
+// add two numbers
+const sum = num1 + num2;
+
+// display the sum
+console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
+
+// 6// .    Invoke a  function and pass values to the ‘width’  & ‘height’  parameters inside the    
+// parenthesis store the return value in a variable ‘Area’  and print it in the console.
+function calcArea(width, height) {
+  let result = width * height;
+  return result;
+};
+ 
+ 
+let area=calcArea(30,15)     //Invoking the function
+console.log("The Area is",area)
+
+
+
+    </script>
+</body>
+</html>
